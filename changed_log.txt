@@ -1,0 +1,16 @@
+Changing permissions of changed_log.txt to 777
+-rwxrwxrwx 1 david david 47 Nov 29 20:48 changed_log.txt
+Changing permissions of helloworld.py to 777
+-rwxrwxrwx 1 david david 43 Nov 28 15:08 helloworld.py
+Changing permissions of ops_challenge_class02.sh to 777
+-rwxrwxrwx 1 david david 473 Nov 28 15:01 ops_challenge_class02.sh
+Changing permissions of ops_challenge_class03.sh to 777
+-rwxrwxrwx 1 david david 822 Nov 29 20:48 ops_challenge_class03.sh
+Changing permissions of syslog_Tue Nov 28 03:02:47 PM CST 2023.log to 777
+-rwxrwxrwx 1 david david 1041186 Nov 28 15:02 syslog_Tue Nov 28 03:02:47 PM CST 2023.log
+total 1036
+-rwxrwxrwx 1 david david     613 Nov 29 20:48 changed_log.txt
+-rwxrwxrwx 1 david david      43 Nov 28 15:08 helloworld.py
+-rwxrwxrwx 1 david david     473 Nov 28 15:01 ops_challenge_class02.sh
+-rwxrwxrwx 1 david david     822 Nov 29 20:48 ops_challenge_class03.sh
+-rwxrwxrwx 1 david david 1041186 Nov 28 15:02 syslog_Tue Nov 28 03:02:47 PM CST 2023.log

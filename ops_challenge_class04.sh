@@ -14,7 +14,7 @@ while true; do
         3)
             ifconfig || ip a || ipconfig;;
         4) 
-            echo "Exiting the program."
+            echo "Goodbye."
             exit 0;;
         *)
             echo "Please select a number between 1 and 4.";;

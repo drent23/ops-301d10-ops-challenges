@@ -101,3 +101,20 @@ list_one.append("grape")
 # remove from list
 list_one.pop
 # sets are unordered and they don't allow duplicate values
+
+# 3 ways to open files (write, read, append)
+open("test.txt", "w") # create file with write permissions
+
+# Declaration of functions
+
+
+# Main
+file.write("hello world") # methods on file object
+file.close() # have to close file to write to disk
+file = open("test.txt", "a") # use append command otherwise write will erase previous data
+file.write("\ngoodbye world") # written on new line and not written until close operation, don't forget
+file.close()
+file = open("test.txt", "r") # get data out of file
+file.read()
+bar = file.read()
+type(bar) # see what the variable assignment creates

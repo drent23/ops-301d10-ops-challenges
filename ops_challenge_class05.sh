@@ -1,4 +1,4 @@
-!#/bin/bash
+#!/bin/bash
 
 # Assign log files to an array/list
 log_files=("/var/log/syslog" "/var/log/wtmp")
@@ -42,3 +42,4 @@ for file in "${log_files[@]}"; do
         echo "That file doesn't exist."
     fi 
 done
+compress_files()

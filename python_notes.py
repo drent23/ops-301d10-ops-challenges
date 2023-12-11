@@ -63,7 +63,6 @@ if __name__ == "__main__":
     user = get_username()
     menu(user)
 
-
 # Bash things in Python
 # os.system('ls -la')
 # os.system('ip a')
@@ -107,7 +106,6 @@ open("test.txt", "w") # create file with write permissions
 
 # Declaration of functions
 
-
 # Main
 file.write("hello world") # methods on file object
 file.close() # have to close file to write to disk
@@ -118,3 +116,27 @@ file = open("test.txt", "r") # get data out of file
 file.read()
 bar = file.read()
 type(bar) # see what the variable assignment creates
+
+# PS Util
+
+# install Python library with 'pip install' - different from import.  Import tells script that you need to bring it into script
+# pip install psutil to install library
+import psutil 
+
+# Generate CPU times as a tuple
+CPUtime = psutil.cpu_times()
+print(CPUtime)
+
+# Generate CPU times as a tuple
+# CPUtime = psutil.cpu_times()
+# print(CPUtime)
+
+# Cleaner version
+print(f"CPU TIME: {psutil.cpu_times()}\n")
+
+# Generate CPU consumption percentage
+print(f"CPU consumption %: {psutil.cpu_percent()}\n")
+
+# F string example
+val = "orange"
+print(f"{val} is the first grocery item")

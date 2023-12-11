@@ -21,4 +21,5 @@ def fetch_times():
     print(f"Time spent by other operating systems running in a virtualized environment: {cpu_times.steal}\n")
     print(f"Time spent running a virtual CPU for guest operating systems under the control of the Linux kernel: {cpu_times.guest}\n")
 
+# Call function
 fetch_times()

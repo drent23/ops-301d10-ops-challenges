@@ -140,3 +140,14 @@ print(f"CPU consumption %: {psutil.cpu_percent()}\n")
 # F string example
 val = "orange"
 print(f"{val} is the first grocery item")
+
+# Assign a requests.get function to a variable
+response = requests.get("https://api.github.com")
+print(response)
+
+# More specific method - just the code, no 'Respose'
+print(response.status_code)
+
+# Get the site's html info/text
+response2 = requests.get("http://google.com")
+print(response2.text)
